@@ -1,0 +1,19 @@
+#image
+{
+    background-image: url(pic1.jpg);
+}
+
+.btn-text
+{
+    color: rgb(30, 136, 174);;
+}
+
+.display-1
+{
+    text-align: center;
+}
+.h1
+{
+    text-align: center;
+    text-decoration: wavy;
+}

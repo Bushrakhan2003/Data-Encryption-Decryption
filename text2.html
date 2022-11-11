@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryption&Decryption</title>
+    <link rel="stylesheet" href="text.css">
+    <!--<p style="background-image: url('https://www.epiqglobal.com/epiq/media/about/hero-data-security.jpg');"></p>-->
+   <!-- <img src="https://www.epiqglobal.com/epiq/media/about/hero-data-security.jpg" class="img-fluid" alt="..."-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    
+    <script defer src="./index.js"></script>
+    <script type="module">
+        import solverjs from 'https://cdn.skypack.dev/solverjs';
+    </script>
+</head>
+
+
+<body id="naziya">
+    <style>
+        body {
+          background-image: url('front.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        </style>
+
+    <div class="container">
+        <div class="switch">
+            <h1>Encrypt & Decrypt Text</h1>
+            
+<!--<form action="">
+  <label for="myfile">Select a file:</label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+  <input type="submit">
+</form>-->
+            <p class="decor">Protect your text by Encrypting and Decrypting any given text with a key that no one knows.</p>
+
+            <div class="first">
+                <div class="text">
+                    <h1>Encryption</h1>
+                    <p class="decor">Text to Encrypt</p>
+                    <textarea class="fix_size" name="text" id="encryption" cols="70" rows="10"></textarea><br>
+                    <button class="btn" id="encrypt">Encrypt</button>
+                </div>
+                <div casls="copy">
+                    <p class="decor">Encrypted Text</p>
+                    <textarea class="fix_size" name="text" id="decryption" cols="70" rows="10" disabled></textarea><br>
+                    <button class="btn" id="btn_enc">Copy text</button>
+                </div>
+            </div>
+            <div class="second">
+                <div class="text">
+                    <h1>Decryption</h1>
+                    <p class="decor">Encrypted Text</p>
+                    <textarea class="fix_size" name="text" id="decryption_dec_input" cols="70" rows="10" ></textarea><br>
+                    <button class="btn" id="paste">Paste text</button>
+                    <button class="btn" id="dnc_btn">Decrypt</button>
+                </div>
+                <div class="copy">
+                    <p class="decor">Decrypted Text</p>
+                    <textarea class="fix_size" name="text" id="decryption_dec" cols="70" rows="10" disabled></textarea><br>
+                    <button class="btn" id="btn_dnc">Copy text</button>
+                    <div class="first">
+
+                       <!--<div class="image">
+                            <h1>Encryption</h1>
+                            <p class="decor">image encrypt</p>
+                            <textarea class="fix_size" name="text" id="encryption" cols="70" rows="10"></textarea><br>
+                            <button class="btn" id="encrypt">Encrypt</button>
+                            <div class="image">
+                                <h1>decryption</h1>
+                                <p class="decor">image decrypt</p>
+                                <textarea class="fix_size" name="text" id="decryption" cols="70" rows="10"></textarea><br>
+                                <button class="btn" id="encrypt">decrypt</button>
+                                <a href ="image.py"></a>button class="btn btn-123" id="btn_dnc">background-image</button>
+                                    --> 
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <span id="popup"></span>
+</body>
+</html>
